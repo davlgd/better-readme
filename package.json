@@ -1,0 +1,19 @@
+{
+  "name": "betterreadme",
+  "version": "0.1.0",
+  "description": "Rules and a checker for the README, CONTRIBUTING, and agent instruction files of a repository",
+  "license": "Apache-2.0",
+  "repository": "github:davlgd/better-readme",
+  "private": true,
+  "type": "module",
+  "bin": {
+    "betterreadme": "bin/betterreadme.mjs"
+  },
+  "scripts": {
+    "check": "node bin/betterreadme.mjs --fail-on warning .",
+    "test": "node --test test/"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
